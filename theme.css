@@ -1,0 +1,59 @@
+.gua-slide {
+    width: 440px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.gua-pic {
+    display: none;
+
+}
+.show {
+    display: block;
+}
+
+.button {
+    width: 30px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.2);
+    border: 0;
+    outline: 0;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+}
+.button:hover {
+    cursor: pointer;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.slide-indicators {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    text-align: center;
+}
+
+.slide-indi {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+}
+
+.white {
+    background: white;
+}
