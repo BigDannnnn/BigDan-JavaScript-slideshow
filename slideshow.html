@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+    <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+<body>
+    <div class="gua-slide">
+        <div class="slide-container" data-imgs="3" data-show="0">
+            <img src="1.jpg" class="gua-pic show" id="id-img-0">
+            <img src="2.jpg" class="gua-pic"       id="id-img-1">
+            <img src="3.jpg" class="gua-pic"       id="id-img-2">
+
+            <button class="button left" data-offset="-1"> <<< </button>
+            <button class="button right" data-offset="1"> >>> </button>
+
+            <div class="slide-indicators">
+                <div id="id-indicator-0" class="slide-indi white" data-index="0"></div>
+                <div id="id-indicator-1" class="slide-indi"        data-index="1"></div>
+                <div id="id-indicator-2" class="slide-indi"        data-index="2"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="slideshow.js"></script>
+
+</body>
+</html>
