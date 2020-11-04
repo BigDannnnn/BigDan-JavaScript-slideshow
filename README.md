@@ -1,10 +1,10 @@
 # BigDan/JavaScript/slideshow
-原生JavaScript实现，代码逻辑清晰
-> 点击箭头按钮，图片切换、小圆点切换
-> 鼠标放入小圆点，图片切换
-> 图片自动播放
+JavaScript implementation with clear code logic
+> 1. click the arrow/dot to change the picture
+> 2. the pic switches then the mouse hover on the dot
+> 3. auto switching
 
-效果展示
+Illustration
 
 ![Image text](https://github.com/real-two-k/img-folder/blob/master/slide.png)
       
