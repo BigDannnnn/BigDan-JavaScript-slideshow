@@ -6,5 +6,5 @@ JavaScript implementation with clear code logic
 
 Illustration
 
-![Image text](https://github.com/real-two-k/img-folder/blob/master/slide.png)
+![Image text](https://github.com/real-2k/img-folder/blob/master/slide.png)
       
